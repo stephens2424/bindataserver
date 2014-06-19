@@ -23,7 +23,7 @@ the code to serve assets would be:
     http.Handle("/assets/", http.StripPrefix("/", bindataserer.Bindata(_bindata)))
 
 The assets would be available under a url such as
-http://exmple.com/assets/website.html.
+http://example.com/assets/website.html.
 
 ## Usage
 
