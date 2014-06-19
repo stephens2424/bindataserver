@@ -16,7 +16,7 @@ For example, given a directory like:
 
 and the following command to generate:
 
-    $ go-bindata -prefix "/data" data
+    $ go-bindata -prefix "/data" data/...
 
 the code to serve assets would be:
 
