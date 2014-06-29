@@ -20,7 +20,7 @@ and the following command to generate:
 
 the code to serve assets would be:
 
-    http.Handle("/assets/", http.StripPrefix("/", bindataserer.Bindata(_bindata)))
+    http.Handle("/assets/", http.StripPrefix("/", bindataserver.Bindata(_bindata)))
 
 The assets would be available under a url such as
 http://example.com/assets/website.html.
